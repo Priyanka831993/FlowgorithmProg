@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="priyanka"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-10-26 05:01:13 PM"/>
+        <attribute name="created" value="cHJpeWFua2E7TEFQVE9QLUpSOTlDQUhTOzIwMjAtMTAtMjY7MDQ6MzM6MDEgUE07MzE5Nw=="/>
+        <attribute name="edited" value="cHJpeWFua2E7TEFQVE9QLUpSOTlDQUhTOzIwMjAtMTAtMjY7MDU6MDE6MTMgUE07MTszMzA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <declare name="res" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the number:&quot;" newline="False"/>
+            <input variable="num"/>
+            <assign variable="res" expression="num % 2"/>
+            <if expression="res = 0">
+                <then>
+                    <output expression="num &amp; &quot;is even number&quot;" newline="False"/>
+                </then>
+                <else>
+                    <output expression="num &amp; &quot;is odd number&quot;" newline="False"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
